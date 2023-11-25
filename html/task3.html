@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <style>
+            .red {
+                color: red;
+            }
+            .green {
+                color: green;
+            }
+        </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row offset-2">
+            <div class="col-8">
+                <input type="text" class="form-control mt-5" id="search" placeholder="Search...">
+                <p class="form-control my-3 text-primary">Result:
+                    <span  id="result"></span>   </p>
+                <textarea disabled style="resize: none;" id="text" class="form-control h-100 my-3">
+                    JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.
+                </textarea>
+                <button class="btn btn-outline-primary" onclick="Search()">Search</button>
+            </div>
+        </div>
+    </div>
+    <script src="../js/task3.js"></script>
+</body>
+
+</html>
